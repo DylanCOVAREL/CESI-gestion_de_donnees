@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images\logoAsimov.png" width=300/>
+  <img src="images\logoOG.png" width=300/>
 </p>
 
 ------------------------------------------------------------------------------------------------------------
