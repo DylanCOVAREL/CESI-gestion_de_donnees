@@ -78,4 +78,119 @@ class JeuxVideos
      * @ORM\JoinColumn(name="jeu_Editeur", referencedColumnName="edit_id")
      */
     private $editeurObj;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
+
+    public function getPlateforme()
+    {
+        return $this->plateforme;
+    }
+
+    public function setPlateforme($plateforme)
+    {
+        $this->plateforme = $plateforme;
+    }
+
+    public function getGenre()
+    {
+        return $this->genre;
+    }
+
+    public function setGenre($genre)
+    {
+        $this->genre = $genre;
+    }
+
+    public function getAgeMini()
+    {
+        return $this->ageMini;
+    }
+
+    public function setAgeMini($ageMini)
+    {
+        $this->ageMini = $ageMini;
+    }
+
+    public function getPrix()
+    {
+        return $this->prix;
+    }
+
+    public function setPrix($prix)
+    {
+        $this->prix = $prix;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    public function getEditeur()
+    {
+        return $this->editeur;
+    }
+
+    public function setEditeur($editeur)
+    {
+        $this->editeur = $editeur;
+    }
+
+    public function getDebutProjet()
+    {
+        return $this->debutProjet;
+    }
+
+    public function setDebutProjet($debutProjet)
+    {
+        $this->debutProjet = $debutProjet;
+    }
+
+    public function getDateSortie()
+    {
+        return $this->dateSortie;
+    }
+
+    public function setDateSortie($dateSortie)
+    {
+        $this->dateSortie = $dateSortie;
+    }
+
+    public function getModeDeJeu()
+    {
+        return $this->modeDeJeu;
+    }
+
+    public function setModeDeJeu($modeDeJeu)
+    {
+        $this->modeDeJeu = $modeDeJeu;
+    }
+
+    public function getMoteur()
+    {
+        return $this->moteur;
+    }
+
+    public function setMoteur($moteur)
+    {
+        $this->moteur = $moteur;
+    }
 }

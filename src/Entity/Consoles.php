@@ -83,4 +83,41 @@ class Console
      * @ORM\JoinColumn(name="conso_Fabricant", referencedColumnName="fab_id")
      */
     private $fabricantObj;
+
+   // Getter et Setter pour la propriété "id"
+   public function getId()
+   {
+       return $this->id;
+   }
+
+   public function getNom()
+   {
+       return $this->nom;
+   }
+
+   public function setNom($nom)
+   {
+       $this->nom = $nom;
+   }
+
+   public function getFabricant()
+   {
+       return $this->fabricant;
+   }
+
+   public function setFabricant($fabricant)
+   {
+       $this->fabricant = $fabricant;
+   }
+
+   public function getNomDeCode()
+   {
+       return $this->nomDeCode;
+   }
+
+   public function setNomDeCode($nomDeCode)
+   {
+       $this->nomDeCode = $nomDeCode;
+   }
+
 }
