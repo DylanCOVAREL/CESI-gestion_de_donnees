@@ -7,14 +7,14 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="Editeurs")
+ * @ORM\Table(name="Editeur")
  */
 class Editeur
 {
     /**
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="edit_id", type="integer")
      */
     private $id;
 

@@ -1,4 +1,4 @@
-<?
+<?php
 // src/Entity/Consoles.php
 
 namespace App\Entity;
@@ -79,7 +79,7 @@ class Console
     private $nbVentes;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Fabricants")
+     * @ORM\ManyToOne(targetEntity="Fabricant")
      * @ORM\JoinColumn(name="conso_Fabricant", referencedColumnName="fab_id")
      */
     private $fabricantObj;

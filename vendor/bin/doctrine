@@ -16,7 +16,7 @@ use Doctrine\ORM\Tools\Console\ConsoleRunner;
 use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
 
 // Adjust this path to your actual bootstrap.php
-require 'C:\wamp64\www\doctrinePHP\bootstrap.php';
+require 'C:\wamp64\www\CESI-gestion_de_donnees\bootstrap.php';
 
 ConsoleRunner::run(
     new SingleManagerProvider($entityManager)

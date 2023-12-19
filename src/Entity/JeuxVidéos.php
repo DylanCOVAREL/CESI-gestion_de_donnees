@@ -74,7 +74,7 @@ class JeuxVideos
     private $moteur;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Editeurs")
+     * @ORM\ManyToOne(targetEntity="Editeur")
      * @ORM\JoinColumn(name="jeu_Editeur", referencedColumnName="edit_id")
      */
     private $editeurObj;
